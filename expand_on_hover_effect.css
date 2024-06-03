@@ -102,3 +102,30 @@ body {
   display: inline-block;
   font-weight: 700;
 }
+
+
+
+@media (max-width: 991px) {
+    .card {
+      width: auto;
+      max-width: 350px;
+      align-items: flex-start;
+      margin: 0;
+    }
+    .card:hover {
+      height: 620px;
+    }
+    .card .content {
+      width: 100%;
+      left: 0;
+      padding: 30px;
+    }
+    .card:hover img {
+      padding-top: 20px;
+      top: 75%;
+      left: 50%;
+      height: 300px;
+    }
+  }
+  
+  
